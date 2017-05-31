@@ -86,6 +86,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom by klblk for GA-Q87TN</string>
+				<key>Id</key>
+				<integer>33</integer>
+				<key>Path</key>
+				<string>layout33.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Custom by Constanta</string>
 				<key>Id</key>
 				<integer>99</integer>
@@ -166,6 +174,14 @@
 				<integer>18</integer>
 				<key>Path</key>
 				<string>PlatformsID.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom by klblk for GA-Q87TN</string>
+				<key>Id</key>
+				<integer>33</integer>
+				<key>Path</key>
+				<string>Platforms33.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -256,6 +272,7 @@
 	</array>
 	<key>Revisions</key>
 	<array>
+		<integer>1049090</integer>
 		<integer>1049346</integer>
 	</array>
 	<key>Vendor</key>

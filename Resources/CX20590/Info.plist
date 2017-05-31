@@ -123,6 +123,32 @@
 			<key>Count</key>
 			<integer>2</integer>
 			<key>Find</key>
+			<data>hBnUEQ==</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
+			<key>MaxKernel</key>
+			<integer>15</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>blDxFA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>ixnUEQ==</data>
+			<key>MinKernel</key>
+			<integer>16</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>blDxFA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
 			<data>ihnUEQ==</data>
 			<key>MinKernel</key>
 			<integer>16</integer>
@@ -131,21 +157,10 @@
 			<key>Replace</key>
 			<data>AAAAAA==</data>
 		</dict>
-		<dict>
-			<key>Count</key>
-			<integer>2</integer>
-			<key>Find</key>
-			<data>hBnUEQ==</data>
-			<key>MinKernel</key>
-			<integer>13</integer>
-			<key>Name</key>
-			<string>AppleHDA</string>
-			<key>Replace</key>
-			<data>blDxFA==</data>
-		</dict>
 	</array>
 	<key>Revisions</key>
 	<array>
+		<integer>1048576</integer>
 		<integer>1048578</integer>
 		<integer>1048579</integer>
 	</array>

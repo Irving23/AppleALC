@@ -20,11 +20,43 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Custom IDT 92HD81B1X by Andres ZeroCross</string>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>layout11.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>IDT 92HD81B1X5 by RehabMan</string>
 				<key>Id</key>
 				<integer>12</integer>
 				<key>Path</key>
 				<string>layout12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>IDT 92HD81B1X5 by Sergey_Galan for HP ProBook 4520s</string>
+				<key>Id</key>
+				<integer>20</integer>
+				<key>Path</key>
+				<string>layout20.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>IDT 92HD81B1X5 by Sergey_Galan for HP DV6-6169er</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>layout21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>IDT 92HD81B1X5 by Gujiangjiang for HP Pavilion g4 1000 series</string>
+				<key>Id</key>
+				<integer>28</integer>
+				<key>Path</key>
+				<string>layout28.xml.zlib</string>
 			</dict>
 		</array>
 		<key>Platforms</key>
@@ -33,7 +65,15 @@
 				<key>Id</key>
 				<integer>3</integer>
 				<key>Path</key>
-				<string>Platforms3.xml.zlib</string>
+				<string>PlatformsM.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom IDT 92HD81B1X by Andres ZeroCross</string>
+				<key>Id</key>
+				<integer>11</integer>
+				<key>Path</key>
+				<string>Platforms11.xml.zlib</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -42,6 +82,30 @@
 				<integer>12</integer>
 				<key>Path</key>
 				<string>Platforms12.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>IDT 92HD81B1X5 by Sergey_Galan for HP ProBook 4520s</string>
+				<key>Id</key>
+				<integer>20</integer>
+				<key>Path</key>
+				<string>Platforms20.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>IDT 92HD81B1X5 by Sergey_Galan for HP DV6-6169er</string>
+				<key>Id</key>
+				<integer>21</integer>
+				<key>Path</key>
+				<string>Platforms21.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>IDT 92HD81B1X5 by Gujiangjiang for HP Pavilion g4 1000 series</string>
+				<key>Id</key>
+				<integer>28</integer>
+				<key>Path</key>
+				<string>Platforms28.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>
@@ -106,6 +170,18 @@
 			<integer>15</integer>
 			<key>MaxKernel</key>
 			<integer>15</integer>
+			<key>Name</key>
+			<string>AppleHDA</string>
+			<key>Replace</key>
+			<data>AAAAAA==</data>
+		</dict>
+		<dict>
+			<key>Count</key>
+			<integer>2</integer>
+			<key>Find</key>
+			<data>hBnUEQ==</data>
+			<key>MinKernel</key>
+			<integer>13</integer>
 			<key>Name</key>
 			<string>AppleHDA</string>
 			<key>Replace</key>

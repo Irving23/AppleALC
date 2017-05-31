@@ -60,6 +60,30 @@
 				<key>Path</key>
 				<string>layout7.xml.zlib</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC892 for Clevo P751DMG by Cryse Hillmes</string>
+				<key>Id</key>
+				<integer>28</integer>
+				<key>Path</key>
+				<string>layout28.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC892 for GA-Z87-HD3 by BIM167</string>
+				<key>Id</key>
+				<integer>92</integer>
+				<key>Path</key>
+				<string>layout92.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC892 for DNS P150EM by Constanta</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>layout99.xml.zlib</string>
+			</dict>
 		</array>
 		<key>Platforms</key>
 		<array>
@@ -110,6 +134,30 @@
 				<integer>7</integer>
 				<key>Path</key>
 				<string>PlatformsM.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>ALC892 for Clevo P751DMG by Cryse Hillmes</string>
+				<key>Id</key>
+				<integer>28</integer>
+				<key>Path</key>
+				<string>Platforms28.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC892 for GA-Z87-HD3 by BIM167</string>
+				<key>Id</key>
+				<integer>92</integer>
+				<key>Path</key>
+				<string>Platforms92.xml.zlib</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Custom ALC892 for DNS P150EM by Constanta</string>
+				<key>Id</key>
+				<integer>99</integer>
+				<key>Path</key>
+				<string>Platforms99.xml.zlib</string>
 			</dict>
 		</array>
 	</dict>

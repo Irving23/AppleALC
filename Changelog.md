@@ -1,13 +1,142 @@
 AppleALC Changelog
 ==================
+#### v1.1.2
+- Added ALC225 layout-id 28 for Dell Inspirion 7579 by ChalesYu
+- Added ALC298 layout-id 28 for Dell XPS 9x50 by vusun123
+- Changed ALC290 layout-id 28 resources Mic & Line In Fix by vusun123
+- Added VIA VT1802 layout-id 33 for asus S400CA by ChalesYu
+- Added IDT92HD91BXX layout-id 33 for HP Envy by jl4c 
+- Added ALCS1220A layout-id 1, 2 for ASUS 200 series by Toleda
+- Added ALC1220 layout-id 1, 2 for 200 series by Toleda
+- Added ALC662 layout-id 12 for Lenovo ThinkCentre M800 by stich86 
+- Added ALC892 layout-id 28 for Clevo P751DMG by crysehillmes
+- Added ALC269VC layout-id 40 for Lenovo W530 by vusun123
+- Added ALC280 (ALC3220) layout-id 11 for Alienware alpha (ONLY SPDIF) by ganxiao
+- Added ALC662 layout-id 13 by Vandroiy for Asus X66Ic, Asus K61Ic, Asus K70Ic
+- Added SPDIF support to ALC887 layout-id 99
+- Added Conexant CX20590 revision-id 0x100000
+- Added revision-id 0x100002 in ALC670 info.plist
+- Added ALC288 layout-id 13 for Dell XPS 9343 by InsanelyDeepak
+- Added ALC286 revision-id 0x100003
+- Added OSBundleCompatibleVersion
+
+#### v1.1.1
+- Requires Lilu 1.1.0 or newer
+- Fixed IDT92HD71B7X macOS 10.12 compatibility issue
+- Added IDT92HD91BXX revision-id 0x100303
+- Added CX20722 menubar patch for 10.10 and above by Wern Apfel
+- Added CX20724 menubar patch for 10.10 and above by Wern Apfel
+- Added CX20751/2 menubar patch for 10.10 and above by Wern Apfel
+- Updated ALC269VB layout-id 11 for Dell Precision Workstation T1600 by Mosser
+- Added ALC1220 layout-id 5 and 7 by Mirone
+- Added ALCS1220A layout-id 5 and 7 by Mirone
+- Increased replacement count for several SKL hdmi patches to workaround matching sequence issues by Andrey1970
+- Update Intel HD4000 HDMI patches for 0x01660009 and 0x0166000A by Andrey1970
+- Implemented simple byte sequence deduplication to reduce kext size
+- Update pinconfig for ALC1220 layout-id 11 by truesoldier
+- Added IDT92HD71B7 menubar patch for 10.10 and above by Wern Apfel
+- Added IDT92HD91BXX ambient noise reduction to layout-id 12
+- Added ALC887 revision-id 0x100202
+- Changed ALC255 layout-id 3 resources by Mirone. It should fix kernel task loading issue
+- Added CA0132 layout-ids 0-6 by Wern Apfel 
+- Fix CX20756 typo in layout3.xml.zlib
+
+#### v1.1.0
+- AppleALC now has its kernel patcher moved to [Lilu.kext](https://github.com/vit9696/Lilu)
+- Added Intel 200 Series Audio controller support by chrome
+- Fixed typo in PinConfigs.kext for ALC233 layout-id 29
+- Added 10.8 support to ALC282
+- Added ALC286 layout-id 3 initial support by Mirone
+- Added ALC888S-VD layout-id 29 for MedionP8610 by MacPeet
+- Added IDT 92HD73C1X5 layout-id 19 for Dell Studio 1535 by chunnann
+- Added ALC269 layout-id 19 for Asus Vivobook S300CA by chunnann
+- Added ALC283 layout-id 66 for ASRock DeskMini 110(H110M-STX) by licheedev
+- Optimize and compress ALC283 resources from previous commit
+- Added ALC256 layout-id 28 for Asus X555UJ by vusun123
+- Added Realtek ALC1220 initial support layout-id 11 by truesoldier
+- Update PinConfig for ALC1220 by truesoldier
+
+#### v1.0.19
+- Added ALC269 layout-id 35 for Samsung NP350V5C-S0URU by Mirone
+- Added Conexant CX20755 layout-id 3 by Mirone
+- Added ALC269VB layout-id 76 for ENZ C16B by jimmy19990
+- Added UserPatches.plist for internal testing
+- Added ALC269VB layout-id 11 for Dell Precision Workstation T1600 by Mosser
+- Recovered Creative CA0132 macOS 10.12 patch due to caused issues
+- Maximised zlib resource compression level
+- Added stripping of tabs and new lines in resources
+- Added ALC236 layout-id 11 Initial support by Jake Lo (forum.osxlatitude)
+- Added ALC269VC layout-id 14 for Samsung NT550P7C-S65 with subwoofer 2.1ch by Rockjesus
+- Added Laptop Intel Skylake HD530 HDMI audio support (ig-platform-id 0x191B0000)
+- Added revision-id 0x100001 into ALC236 info.plist 
+- Added ALC293 codec support layout-id 28, 29 for Lenovo T460/T560 by tluck
+- Added Conexant CX20751_2 HDMI/DisplayPort Output fix by syscl
+- Added ALC282 layout-id 29 for Dell Inspirion 3521 by Generation88
+- Added ALC293 layout-id 11 for Dell E7450 by Andres ZeroCross 
+- Update PinConfig data for ALC269 layout-id 27 by Andrey1970
+- Added ALC3236 (ALC233) layout-id 29 for Asus X550LDV by Mirone
+- Added Conexant CX20722 codec support layout-id 3 by Mirone
+- Added Conexant CX20753/4 codec support layout-id 3 by Mirone
+- Added Conexant CX8050 codec support layout-id 3 by Mirone
+- Added Conexant CX8200 codec support layout-id 3 by Mirone
+- Added revision-id 0x100103 for ALC885
+- Added ALC269VB layout-id 15 for Dell Optiplex 790 by MacPeet
+- Allowed building for 10.8 without using 10.8 SDK
+
+#### v1.0.18
+- Improved operating system detection
+- Decent workaround for 10.12 issues and panics
+- Added ALC888S-VD layout-it 11 and 28 for Medion P9614 and E7216 by MacPeet
+- Added initial support AD1984 layout-id 11 for IBM_Lenovo_ThinkPad_T61 by MacPeet
+- Added ALC272 layout-id 11 for Lenovo B470 by Sam Chen
+- Added Laptop Intel Broadwell HD5500/5600 HDMI audio support (ig-platform-id 0x16260006)
+- Added Laptop Intel Skylake HD515/520/530 HDMI audio support (ig-platform-id 0x191E0000, 0x19160000)
+- Added Desktop Intel Skylake HD530 HDMI audio support (ig-platform-id 0x19120000)
+- Fixed Creative CA0132 macOS 10.12 compatibility issue
+- Added ALC892 layout-id 92 for GA-Z87-HD3 by BIM167
+- Added ALC295 codec support layout-id 28 for Skylake HP Pavilion by vusun123
+- Added IDT92HD81B1X5 layout-id 20 and 21 by Sergey_Galan for HP ProBook 4520s and HP DV6-6169er
+- Added IDT92HD81B1X5 layout-id 28 by Gujiangjiang for HP Pavilion g4 1000 series
+
+#### v1.0.17
+- Added C610/X99 Audio Controller r1 support by masking to 8ca0
+- Added C610/X99 Audio Controller r2 support by masking to 8ca0
+- Disabled Z97 controller patching on 10.10 and newer because it is supported by default
+- Fixed ALC272 macOS 10.12 compatibility issue
+- Fixed ALC885 and ALC888 macOS 10.12 compatibility issue
+- Added ALC888 revision-id 100302
+- Fixed CX20585 macOS 10.12 compatibility issue
+- Fixed CX20588, CX20590 and CX20724 macOS 10.12 compatibility issue
+- Fixed CX20757 macOS 10.12 compatibility issue
+- Fixed rest of Conexant codecs for macOS 10.12 compatibility
+- Added missing zero patch in IDT 92HD81B1X5 info.plist
+- Added ALC892 layout-id 99 for DNS P150EM by Constanta
+- Added ALC898 layout-id 5 and 7 by Mirone
+- Changed logging to be done by IOLog since printf is broken on 10.12
+- Added ALC3236 layout-id 28 for Asus TP500LN by Mohamed Khairy
+- Fixed ALC235, ALC260, ALC280, ALC284, ALC288, ALC290, ALC292 macOS 10.12 compatibility issue
+- Added ALC233 layout-id 27 for SONY VAIO Fit 14E(SVF14316SCW) by SquallATF
+- Fixed all Conexant codecs macOS 10.12 compatibility issue
+- Added IDT 92HD81B1X5 layout-id 11 by Andres ZeroCross
+- Added ALC887 layout-id 33 for GA-Q87TN by klblk
+- Added ALC256 (3246) codec support layout-id 13 by InsanelyDeepak
+- Added ALC255 layout-id 13 and 17 by InsanelyDeepak
+- Fixed an extremely rare crash on 10.12
+ 
 #### v1.0.16
 - Fixed a rare lock acquisition issue on 10.12
 - Fixed a rare kernel panic on initialisation failure
 - Improved ALC887 layout-id 11, 13 by InsanelyDeepak
 - Added ALC269VC layout-id 33 for NP530U3C-A0F by BblDE3HAP
-- Added ALC898 layout-id 12 with adtodetect disabled by D-an-W
+- Added ALC898 layout-id 12 with autodetect disabled by D-an-W
 - Deleted not working ALC233 layout-id 12
 - Added ALC233 layout-id 13 for Asus X550LC by InsanelyDeepak
+- Added ALC662 layout-id 11 for Lenovo ThinkCentre M8400t-N000 by Irving23
+- Fixed ALC255 macOS 10.12 compatibility issue
+- Changed ALC898 layout-id 12 to 28 due to compatibility issue
+- Fixed ALC275 macOS 10.12 compatibility issue
+- Added ALC255 layout-id 28 for Lenovo B470 by vusun123
+- Added Atom Z36xxx/Z37xxx Audio Controller support by masking to 0c0c
 
 #### v1.0.15
 - Added macOS 10.12 to the list of supported systems
